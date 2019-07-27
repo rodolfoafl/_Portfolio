@@ -1,0 +1,23 @@
+{
+  "name": "Web_LandingPage",
+  "version": "1.0.0",
+  "description": "Web_LandingPage",
+  "main": "main.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodolfoafl/Web_LandingPage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodolfoafl/Web_LandingPage/issues"
+  },
+  "homepage": "https://rodolfoafl.github.io/Web_LandingPage",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
