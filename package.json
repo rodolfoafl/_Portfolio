@@ -2,7 +2,7 @@
   "name": "Web_LandingPage",
   "version": "1.0.0",
   "description": "Web_LandingPage",
-  "main": "main.js",
+  "main": "side-menu.js",
   "scripts": {
     "deploy": "gh-pages -d dist",
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
