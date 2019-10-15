@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Product Ratings</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="form-group">
+        <select id="product-select" class="form-control custom-select">
+          <option value="0" disabled selected>Select Product</option>
+          <option value="product_1">Product 1</option>
+          <option value="product_2">Product 2</option>
+          <option value="product_3">Product 3</option>
+          <option value="product_4">Product 4</option>
+          <option value="product_5">Product 5</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <input
+          type="number"
+          step="0.1"
+          max="5"
+          min="0"
+          placeholder="Rate 1 - 5"
+          disabled
+          class="form-control"
+          id="rating-control"
+        />
+      </div>
+
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Product Name</th>
+            <th>Rating</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="product_1">
+            <td>Product 1</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner"></div>
+              </div>
+              <span class="number-rating"></span>
+            </td>
+          </tr>
+          <tr class="product_2">
+            <td>Product 2</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner"></div>
+              </div>
+              <span class="number-rating"></span>
+            </td>
+          </tr>
+          <tr class="product_3">
+            <td>Product 3</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner"></div>
+              </div>
+              <span class="number-rating"></span>
+            </td>
+          </tr>
+          <tr class="product_4">
+            <td>Product 4</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner"></div>
+              </div>
+              <span class="number-rating"></span>
+            </td>
+          </tr>
+          <tr class="product_5">
+            <td>Product 5</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner"></div>
+              </div>
+              <span class="number-rating"></span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
