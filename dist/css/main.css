@@ -243,7 +243,7 @@ main#p-home h1 {
 .projects img {
   width: 100%;
   border: 3px #fff solid;
-  max-height: 210px;
+  height: 190px;
 }
 .projects img:hover {
   opacity: 0.5;
