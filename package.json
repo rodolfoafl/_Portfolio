@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rodolfoafl/Web_LandingPage.git"
+    "url": "git+https://github.com/rodolfoafl/_Portfolio.git"
   },
   "keywords": [],
   "author": "",
@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/rodolfoafl/Web_LandingPage/issues"
   },
-  "homepage": "https://rodolfoafl.github.io/Web_LandingPage",
+  "homepage": "https://rodolfoafl.github.io/_Portfolio",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "node-sass": "^4.13.1"
