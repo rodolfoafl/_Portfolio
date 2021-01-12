@@ -15,9 +15,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rodolfoafl/Web_LandingPage/issues"
+    "url": "https://github.com/rodolfoafl/_Portfolio/issues"
   },
-  "homepage": "https://rodolfoafl.github.io/_Portfolio",
+  "homepage": "https://rodolfoafl.github.io/_Portfolio/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "node-sass": "^4.13.1"
