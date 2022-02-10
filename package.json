@@ -20,6 +20,6 @@
   "homepage": "https://rodolfoafl.github.io/_Portfolio/",
   "dependencies": {
     "gh-pages": "^2.0.1",
-    "node-sass": "^4.13.1"
+    "node-sass": "^7.0.0"
   }
 }
